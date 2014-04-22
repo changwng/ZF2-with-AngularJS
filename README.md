@@ -1,6 +1,3 @@
-ZendSkeletonApplication
-=======================
-
 Introduction
 ------------
 This is a simple, Zend Framework 2 with AngularJS App.
