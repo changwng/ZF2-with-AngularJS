@@ -6,7 +6,8 @@ AlbumCtrl.controller('AlbumListCtrl', ['$scope', '$http', '$rootScope', '$locati
             $location.path("/admin");
         }
 
-        $rootScope.appUrl = "http://learningzend2";
+		// this configuration depends on your site.
+        $rootScope.appUrl = "http://yoursite";
 
         $http.get($rootScope.appUrl+'/album').success(function(data) {
             $scope.albumList = data['data'];
